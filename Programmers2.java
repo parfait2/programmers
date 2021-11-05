@@ -63,7 +63,7 @@ public class Programmers2 {
         return answer;
     }
     public static void main(String[] args) {
-        int[] priorities = {5,4,2,7,5}; // {1,2,9,3,2,2,1,3,2,3}; //  // ; 
+        int[] priorities = {5,4,2,7,5}; // {1,2,9,3,2,2,1,3,2,3};
         int location = 4;
         int ans = solution(priorities, location);
         System.out.println("답 : " + ans);
